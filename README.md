@@ -12,15 +12,11 @@ This project is a prototype AI tutor that uses open-source models to analyze stu
 
 ## Research Plan
 
-*(**Action:** Copy and paste the 2-paragraph "Research Plan" I provided you earlier into this section. Review and edit it to make it your own.)*
-
 Our research will identify and evaluate open-source language models for their capacity to analyze student competence in Python programming...
 
 ---
 
 ## Reasoning
-
-*(**Action:** Copy and paste the answers to the four "Reasoning" questions I provided you earlier into this section. Review and edit them.)*
 
 #### What makes a model suitable for high-level competence analysis?
 A model suitable for competence analysis must go far beyond simple syntax checking. Its key attributes are...
@@ -47,8 +43,8 @@ Follow these steps to run the application locally.
 **Instructions:**
 1.  **Clone the repository:**
     ```bash
-    git clone [Your GitHub Repo URL]
-    cd [Your Repo Name]
+    git clone https://github.com/kg7825881/CodeAI-Tutor.git
+    cd CodeAI-Tutor
     ```
 
 2.  **Create and activate a virtual environment:**
