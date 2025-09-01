@@ -18,16 +18,16 @@ Our research will identify and evaluate open-source language models for their ca
 
 ## Reasoning
 
-#### What makes a model suitable for high-level competence analysis?
+#### 1. What makes a model suitable for high-level competence analysis?
 A model suitable for competence analysis must go far beyond simple syntax checking. Its key attributes are...
 
-#### How would you test whether a model generates meaningful prompts?
+#### 2. How would you test whether a model generates meaningful prompts?
 Testing for "meaningful" prompts is a qualitative challenge that cannot be fully captured by automated metrics...
 
-#### What trade-offs might exist between accuracy, interpretability, and cost?
+#### 3. What trade-offs might exist between accuracy, interpretability, and cost?
 Significant trade-offs exist between these three factors...
 
-#### Why did you choose the model you evaluated (Code Llama)?
+#### 4. Why did you choose the model you evaluated (Code Llama)?
 Code Llama was chosen as the primary candidate for this task due to a strategic combination of factors...
 
 ---
@@ -58,17 +58,12 @@ Follow these steps to run the application locally.
     .\venv\Scripts\activate
     ```
 
-3.  **Install required libraries:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Download the Code Llama model via Ollama:**
+3.  **Download the Code Llama model via Ollama:**
     ```bash
     ollama pull codellama:7b
     ```
 
-5.  **Run the Streamlit application:**
+4.  **Run the Streamlit application:**
     ```bash
     streamlit run app.py
     ```
